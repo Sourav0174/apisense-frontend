@@ -1,6 +1,6 @@
 import React from "react";
 import { Project } from "@/types";
-import { Activity, Clock, ServerCrash, Zap } from "lucide-react";
+import { Clock, ServerCrash, Zap } from "lucide-react";
 
 interface HealthOverviewProps {
   project: Project;

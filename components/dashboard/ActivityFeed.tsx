@@ -1,6 +1,6 @@
 import React from "react";
 import { ActivityEvent } from "@/types";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+
 import { AlertTriangle, CheckCircle2, Settings, Zap, Plus, Activity } from "lucide-react";
 
 interface ActivityFeedProps {

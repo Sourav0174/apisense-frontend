@@ -1,6 +1,6 @@
 import React from "react";
 import { Endpoint } from "@/types";
-import { Badge } from "@/components/ui/Badge";
+
 import { ArrowRight } from "lucide-react";
 
 interface RequestTracesProps {

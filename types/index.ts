@@ -54,3 +54,30 @@ export interface ActivityEvent {
   description: string;
   timestamp: string; // ISO date string
 }
+
+// Authentication Types
+
+export type AuthProvider = "local" | "google" | "github";
+
+export interface User {
+  id: string;
+  full_name: string;
+  email: string;
+  avatar_url?: string | null;
+  auth_provider: AuthProvider;
+  is_verified: boolean;
+  is_active: boolean;
+  last_login?: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface Token {
+  access_token: string;
+  refresh_token: string;
+  token_type: string;
+}
+
+export interface MessageResponse {
+  message: string;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowLeft, MoreVertical, Pause, Play, Settings } from "lucide-react";
+import { ArrowLeft, MoreVertical, Pause, Settings } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";

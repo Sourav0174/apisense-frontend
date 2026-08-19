@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
+
 import { TimeSeriesData } from "@/types";
 import { 
   AreaChart, 

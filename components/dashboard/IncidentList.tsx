@@ -1,8 +1,8 @@
 import React from "react";
 import { Incident } from "@/types";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+
 import { Badge } from "@/components/ui/Badge";
-import { AlertTriangle, CheckCircle2, Clock } from "lucide-react";
+import { CheckCircle2, Clock } from "lucide-react";
 import { EmptyState } from "@/components/ui/State";
 
 interface IncidentListProps {

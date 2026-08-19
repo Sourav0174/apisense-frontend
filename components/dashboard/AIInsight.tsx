@@ -1,6 +1,6 @@
 import React from "react";
 import { AIInsight as AIInsightType } from "@/types";
-import { Card, CardContent } from "@/components/ui/Card";
+
 import { Sparkles, ArrowRight } from "lucide-react";
 
 interface AIInsightProps {

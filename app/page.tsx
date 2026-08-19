@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { AppShell } from "@/components/layout/AppShell";
+import { ProtectedRoute } from "@/components/layout/ProtectedRoute";
 import { Header } from "@/components/layout/Header";
 import { HealthOverview } from "@/components/dashboard/HealthOverview";
 import { PerformanceChart } from "@/components/dashboard/PerformanceChart";
@@ -56,7 +57,7 @@ export default function DashboardPage() {
   };
 
   return (
-    <>
+    <ProtectedRoute>
       <AppShell>
         <Header 
           title="Overview" 
@@ -116,6 +117,6 @@ export default function DashboardPage() {
           onCancel={() => setIsDrawerOpen(false)} 
         />
       </Drawer>
-    </>
+    </ProtectedRoute>
   );
 }
